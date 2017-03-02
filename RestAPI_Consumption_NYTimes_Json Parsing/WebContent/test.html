@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+    .fieldset-auto-width {
+         display: inline-block;
+        text-align:left;
+    }
+</style>
+
+</head>
+<body>
+
+<h3 align="center">My Servlet Application</h3>
+
+<form action="NewApplication" method="POST">
+<fieldset class="fieldset-auto-width" >
+    <legend >Personal information:</legend>
+
+<table align="center">
+<tr><td>First Name</td><td><input type="text" id ="firstName" name= "firstName"/></td></tr>
+<tr><td>Middle Name</td><td><input type="text" id="middleName"name="middleName"/></td></tr>
+<tr><td>Last Name</td><td><input type="text" id="lastName" name="lastName"/></td></tr>
+<tr><td>Gender </td><td>
+<input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+</td></tr>
+  
+<tr><td>Date of Birth</td><td> <input type="date" name="dateOfBirth">
+ </td></tr>
+<tr><td>Address</td><td><input type="text" id="address" name= "address" /></td></tr>
+<tr><td>City</td><td><input type="text" id="city" name="city"/></td></tr>
+<tr><td>State</td><td><input type="text" id="state" name= "state"/></td></tr>
+<tr><td>Pin</td><td><input type="text" id="pin" name= "pin"/></td></tr>
+<tr><td></td><td><input type="submit"></input></td></tr>
+</table>
+
+
+</fieldset>
+</form>
+</body>
+</html>
